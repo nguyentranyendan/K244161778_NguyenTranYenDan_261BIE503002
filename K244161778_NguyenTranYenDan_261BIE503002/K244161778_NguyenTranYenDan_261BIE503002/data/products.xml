@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product id="1">
+    <title>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</title>
+    <price>109.95</price>
+    <category>men's clothing</category>
+    <image>https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png</image>
+    <colors>
+      <color>Black</color>
+      <color>Blue</color>
+      <color>Red</color>
+    </colors>
+    <stock>25</stock>
+  </product>
+  <product id="2">
+    <title>Mens Casual Premium Slim Fit T-Shirts</title>
+    <price>22.30</price>
+    <category>men's clothing</category>
+    <image>https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png</image>
+    <colors>
+      <color>White</color>
+      <color>Black</color>
+    </colors>
+    <stock>40</stock>
+  </product>
+  <product id="3">
+    <title>Mens Cotton Jacket</title>
+    <price>55.99</price>
+    <category>men's clothing</category>
+    <image>https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png</image>
+    <colors>
+      <color>Brown</color>
+      <color>Black</color>
+    </colors>
+    <stock>18</stock>
+  </product>
+  <product id="4">
+    <title>Mens Casual Slim Fit</title>
+    <price>15.99</price>
+    <category>men's clothing</category>
+    <image>https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png</image>
+    <colors>
+      <color>Blue</color>
+      <color>Grey</color>
+    </colors>
+    <stock>30</stock>
+  </product>
+  <product id="5">
+    <title>John Hardy Women's Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet</title>
+    <price>695.00</price>
+    <category>jewelery</category>
+    <image>https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png</image>
+    <colors>
+      <color>Gold</color>
+      <color>Silver</color>
+    </colors>
+    <stock>6</stock>
+  </product>
+  <product id="6">
+    <title>Solid Gold Petite Micropave</title>
+    <price>168.00</price>
+    <category>jewelery</category>
+    <image>https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png</image>
+    <colors>
+      <color>Gold</color>
+    </colors>
+    <stock>12</stock>
+  </product>
+  <product id="7">
+    <title>White Gold Plated Princess</title>
+    <price>9.99</price>
+    <category>jewelery</category>
+    <image>https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png</image>
+    <colors>
+      <color>Silver</color>
+    </colors>
+    <stock>50</stock>
+  </product>
+  <product id="8">
+    <title>Pierced Owl Rose Gold Plated Stainless Steel Double</title>
+    <price>10.99</price>
+    <category>jewelery</category>
+    <image>https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png</image>
+    <colors>
+      <color>Rose Gold</color>
+      <color>Gold</color>
+    </colors>
+    <stock>35</stock>
+  </product>
+  <product id="9">
+    <title>WD 2TB Elements Portable External Hard Drive - USB 3.0</title>
+    <price>64.00</price>
+    <category>electronics</category>
+    <image>https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png</image>
+    <colors>
+      <color>Black</color>
+    </colors>
+    <stock>45</stock>
+  </product>
+  <product id="10">
+    <title>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</title>
+    <price>109.00</price>
+    <category>electronics</category>
+    <image>https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png</image>
+    <colors>
+      <color>Black</color>
+    </colors>
+    <stock>20</stock>
+  </product>
+  <product id="11">
+    <title>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</title>
+    <price>109.00</price>
+    <category>electronics</category>
+    <image>https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png</image>
+    <colors>
+      <color>Black</color>
+    </colors>
+    <stock>28</stock>
+  </product>
+  <product id="12">
+    <title>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</title>
+    <price>114.00</price>
+    <category>electronics</category>
+    <image>https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png</image>
+    <colors>
+      <color>Black</color>
+      <color>Blue</color>
+    </colors>
+    <stock>15</stock>
+  </product>
+  <product id="13">
+    <title>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</title>
+    <price>599.00</price>
+    <category>electronics</category>
+    <image>https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png</image>
+    <colors>
+      <color>Black</color>
+    </colors>
+    <stock>8</stock>
+  </product>
+  <product id="14">
+    <title>Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor</title>
+    <price>999.99</price>
+    <category>electronics</category>
+    <image>https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png</image>
+    <colors>
+      <color>Black</color>
+    </colors>
+    <stock>5</stock>
+  </product>
+  <product id="15">
+    <title>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</title>
+    <price>56.99</price>
+    <category>women's clothing</category>
+    <image>https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png</image>
+    <colors>
+      <color>Purple</color>
+      <color>Black</color>
+      <color>Red</color>
+    </colors>
+    <stock>22</stock>
+  </product>
+  <product id="16">
+    <title>Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</title>
+    <price>29.95</price>
+    <category>women's clothing</category>
+    <image>https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png</image>
+    <colors>
+      <color>Black</color>
+      <color>Brown</color>
+    </colors>
+    <stock>19</stock>
+  </product>
+  <product id="17">
+    <title>Rain Jacket Women Windbreaker Striped Climbing Raincoats</title>
+    <price>39.99</price>
+    <category>women's clothing</category>
+    <image>https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png</image>
+    <colors>
+      <color>Blue</color>
+      <color>Yellow</color>
+    </colors>
+    <stock>33</stock>
+  </product>
+  <product id="18">
+    <title>MBJ Women's Solid Short Sleeve Boat Neck V</title>
+    <price>9.85</price>
+    <category>women's clothing</category>
+    <image>https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png</image>
+    <colors>
+      <color>White</color>
+      <color>Black</color>
+    </colors>
+    <stock>60</stock>
+  </product>
+  <product id="19">
+    <title>Opna Women's Short Sleeve Moisture</title>
+    <price>7.95</price>
+    <category>women's clothing</category>
+    <image>https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png</image>
+    <colors>
+      <color>Red</color>
+      <color>Purple</color>
+    </colors>
+    <stock>45</stock>
+  </product>
+  <product id="20">
+    <title>DANVOUY Womens T Shirt Casual Cotton Short</title>
+    <price>12.99</price>
+    <category>women's clothing</category>
+    <image>https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png</image>
+    <colors>
+      <color>Purple</color>
+      <color>Pink</color>
+    </colors>
+    <stock>38</stock>
+  </product>
+</products>

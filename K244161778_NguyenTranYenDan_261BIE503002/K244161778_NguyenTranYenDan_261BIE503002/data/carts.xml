@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order>
+    <order_id>HD001</order_id>
+    <date>2026-03-20</date>
+    <employee>EMP01</employee>
+    <customer>CUST01</customer>
+    <details>
+      <item>
+        <product_id>1</product_id>
+        <title>Fjallraven - Foldsack No. 1 Backpack</title>
+        <variant>Black</variant>
+        <quantity>1</quantity>
+        <price>109.95</price>
+      </item>
+    </details>
+    <total>109.95</total>
+  </order>
+</orders>

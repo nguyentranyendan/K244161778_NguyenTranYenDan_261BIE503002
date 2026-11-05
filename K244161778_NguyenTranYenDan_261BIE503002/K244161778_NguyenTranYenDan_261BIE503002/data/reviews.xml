@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews>
+  <review>
+    <product_id>1</product_id>
+    <customer_name>Nguyễn Văn A</customer_name>
+    <rating>5</rating>
+    <comment>Balo dày dặn, form rất đẹp!</comment>
+  </review>
+  <review>
+    <product_id>1</product_id>
+    <customer_name>Trần Thị B</customer_name>
+    <rating>4</rating>
+    <comment>Chất liệu tốt, giao hàng hơi lâu xíu.</comment>
+  </review>
+  <review>
+    <product_id>2</product_id>
+    <customer_name>Lê Văn C</customer_name>
+    <rating>5</rating>
+    <comment>Vải cotton mặc cực kỳ mát mẻ.</comment>
+  </review>
+  <review>
+    <product_id>3</product_id>
+    <customer_name>Phạm Minh D</customer_name>
+    <rating>4</rating>
+    <comment>Áo khoác ấm áp, đúng mô tả.</comment>
+  </review>
+  <review>
+    <product_id>4</product_id>
+    <customer_name>Võ Hoàng E</customer_name>
+    <rating>5</rating>
+    <comment>Vòng tay tinh xảo, sang trọng.</comment>
+  </review>
+  <review>
+    <product_id>6</product_id>
+    <customer_name>Đặng Khắc F</customer_name>
+    <rating>4</rating>
+    <comment>Ổ cứng truyền tải nhanh, chạy êm.</comment>
+  </review>
+</reviews>

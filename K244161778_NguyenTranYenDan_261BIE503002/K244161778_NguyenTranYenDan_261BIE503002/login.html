@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập Admin - AuraMart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .login-box {
+      width: 400px;
+      margin: 90px auto;
+      background: white;
+      padding: 2.5rem 2rem;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      border: 1px solid #e2e8f0;
+    }
+
+    .btn-back-home {
+      display: inline-block;
+      margin-top: 1.2rem;
+      color: #64748b;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .btn-back-home:hover {
+      color: #2563eb;
+      transform: translateX(-3px);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <h3 style="text-align: center; margin-bottom: 1.8rem; font-size: 1.35rem; color: #0f172a;">Đăng Nhập Dashboard Admin</h3>
+    
+    <form id="loginForm">
+      <div class="filter-group">
+        <label for="username">Tài khoản:</label>
+        <input type="text" id="username" required autocomplete="off">
+      </div>
+      
+      <div class="filter-group">
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" required>
+      </div>
+      
+      <p id="loginError" class="error-text" style="margin-bottom: 0.8rem;"></p>
+      
+      <button type="submit" class="btn-checkout" style="padding: 0.75rem; width: 100%;">Đăng Nhập</button>
+    </form>
+
+    <!-- Nút trở về trang chủ -->
+    <div style="text-align: center;">
+      <a href="index.html" class="btn-back-home">← Quay lại trang chủ</a>
+    </div>
+  </div>
+
+  <!-- Footer chuẩn thông tin sinh viên theo đề bài -->
+  <footer>
+    <p>Họ và Tên Sinh Viên: Nguyễn Trần Yên Đan - Mã Sinh Viên: K244161778</p>
+  </footer>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const u = document.getElementById('username').value.trim();
+      const p = document.getElementById('password').value.trim();
+      
+      try {
+        const res = await fetch('data/employees.json');
+        const employees = await res.json();
+        
+        const found = employees.find(emp => emp.username === u && emp.password === p && emp.role === 'admin');
+        if (found) {
+          sessionStorage.setItem('adminLogged', JSON.stringify(found));
+          window.location.href = 'admin.html';
+        } else {
+          document.getElementById('loginError').textContent = 'Sai thông tin đăng nhập hoặc bạn không phải admin!';
+        }
+      } catch (err) {
+        document.getElementById('loginError').textContent = 'Lỗi kết nối dữ liệu tài khoản!';
+      }
+    });
+  </script>
+</body>
+</html>

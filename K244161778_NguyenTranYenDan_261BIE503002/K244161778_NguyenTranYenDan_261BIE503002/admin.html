@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard - Thống kê đơn hàng</title>
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2>Dashboard Quản Trị Hệ Thống</h2>
+    <div>
+      <span id="adminName" style="margin-right: 15px;"></span>
+      <button onclick="logoutAdmin()" style="background: #e74c3c; color: white; padding: 5px 12px;">Đăng xuất</button>
+      <a href="index.html" style="color: white; margin-left: 10px; text-decoration: none;">Về Trang Chủ</a>
+    </div>
+  </header>
+
+  <div class="admin-container">
+    <!-- Cards Thống kê (Câu 8) -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <h3>TỔNG ĐƠN HÀNG</h3>
+        <p id="totalOrders">0</p>
+      </div>
+      <div class="stat-card">
+        <h3>TỔNG DOANH THU</h3>
+        <p id="totalRevenue">$0.00</p>
+      </div>
+      <div class="stat-card">
+        <h3>SẢN PHẨM ĐÃ BÁN</h3>
+        <p id="totalProductsSold">0</p>
+      </div>
+    </div>
+
+    <!-- Bảng danh sách đơn hàng -->
+    <div class="table-wrapper">
+      <h3>Danh Sách Đơn Hàng Mới Nhất</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Mã Đơn</th>
+            <th>Khách Hàng</th>
+            <th>SĐT</th>
+            <th>Ngày Đặt</th>
+            <th>Số Món</th>
+            <th>Tổng Tiền</th>
+          </tr>
+        </thead>
+        <tbody id="orderTableBody">
+          <!-- Render từ LocalStorage -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <p>Họ và Tên Sinh Viên: Nguyễn Trần Yên Đan - Mã Sinh Viên: K244161778</p>
+  </footer>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

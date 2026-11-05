@@ -1,0 +1,16 @@
+[
+  {
+    "id": "EMP01",
+    "username": "ntyd",
+    "password": "12345",
+    "fullname": "Nguyễn Trần Yên Đan",
+    "role": "admin"
+  },
+  {
+    "id": "EMP02",
+    "username": "staff1",
+    "password": "6789",
+    "fullname": "Nhân Viên",
+    "role": "staff"
+  }
+]
